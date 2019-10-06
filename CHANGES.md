@@ -1,5 +1,11 @@
-0.2.6 (dev)
-===========
+0.2.7 (dev)
+=====
++ small optimizations
++ exit with 1 on bad help #80
++ fix check on remote bam (brentp/hts-nim#48)
+
+0.2.6
+=====
 + fix #54. for quantize
 + add summary file output (implemented by @danielecook)
 + add `--median` flag to output the median for each region from --by (default is to use mean).
